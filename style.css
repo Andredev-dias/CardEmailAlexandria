@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Co Text";
+  src: url("/fonts/Co Text.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Co Text Light";
+  src: url("/fonts/Co Text Light.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Co Text Bold";
+  src: url("/fonts/Co Text Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wrap-nome {
+  color: #faa61a;
+  width: 100%;
+}
+
+.wrap-email-site-phone {
+  color: #034694;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.nome {
+  font-family: "Co Text Bold";
+  font-size: 20px;
+  text-align: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.email {
+  font-family: "Co Text Light";
+  font-size: 14px;
+  width: 45%;
+  text-align: left;
+  overflow: hidden;
+}
+
+.wrap-site-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 45%;
+  text-align: center;
+}
+
+.site {
+  font-family: "Co Text Light";
+  font-size: 12px;
+}
+
+.phone {
+  font-family: "Co Text Bold";
+  font-size: 8px;
+}
+
+strong {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.wrap-img {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  overflow: hidden;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  margin-left: -10px;
+  transform: scale(1.13);
+}
